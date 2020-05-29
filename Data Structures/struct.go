@@ -9,12 +9,11 @@ type person struct {
 }
 
 func main() {
-	//Assigning values to the fields in the person struct:
 	p1 := person{
 		firstName: "Pintu",
 		lastName:  "Kumar",
 		age:       23,
 	}
 
-	fmt.Println("The is the person: ", p1)
+	fmt.Println("Person: ", p1)
 }
